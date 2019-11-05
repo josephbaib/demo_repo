@@ -46,3 +46,5 @@ axes <- ggplot(data = clean_data, mapping = aes(x = lon, y = lat))
 axes + geom_point() 
 
 library(OpenStreetMap)
+
+library(ggplot2)
